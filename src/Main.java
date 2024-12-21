@@ -1,3 +1,5 @@
+import BasicsJava.Basics;
+
 import java.util.Scanner;
 
 
@@ -5,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+       Basics.basics();
         int  a = scan.nextInt();
         if (a > 20) {
             System.out.println("greater.");
