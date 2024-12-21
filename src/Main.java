@@ -12,7 +12,6 @@ public class Main {
             System.out.println("Lesser.");
         }
 
-
         Main siva = new Main();
         System.out.println(siva.visva());
     }
